@@ -269,6 +269,121 @@ span {
     color: #cbd5e1;
     font-size: 14px;
 }
+/* ============================================================================================================== */
+/* ==============================================================================================================  */
+/* ======================================Mobile Style================================ */
+
+@media screen and (max-width: 768px) {
+
+    /* Navbar */
+    nav {
+        padding: 15px 5%;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .logo {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .links {
+        gap: 18px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .links a {
+        font-size: 14px;
+    }
+
+    /* ============================================================================================================================= */
+    /* Section 1 */
+    .section1 {
+        padding: 50px 6%;
+        min-height: auto;
+        text-align: left;
+        justify-content: flex-start;
+        background-position: center;
+    }
+
+    .speacial {
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .speacial h1 {
+        font-size: 32px;
+        line-height: 1.3;
+        text-align: left;
+    }
+
+    .speacial p {
+        font-size: 15px;
+        text-align: left;
+    }
+/* btn */
+    .btn {
+        padding: 10px 24px;
+        font-size: 14px;
+        display: inline-block;
+        margin-left: 0;
+    }
+
+    /* Section 2*/
+    .section2 {
+        padding: 30px 6%;
+    }
+
+    .section2 h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .section2 p {
+        font-size: 14px;
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    /* Cards */
+    .cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .web,
+    .design,
+    .data {
+        width: 100%;
+        padding: 22px;
+    }
+
+    .web h3,
+    .design h3,
+    .data h3 {
+        font-size: 20px;
+    }
+
+    .web p,
+    .design p,
+    .data p {
+        font-size: 15px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 15px 10px;
+    }
+
+    .footer h3 {
+        font-size: 20px;
+    }
+
+    .footer p {
+        font-size: 13px;
+    }
+}
 
 /* ============================================================================================================== */
 /* ============================================================================================================== *
